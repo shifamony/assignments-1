@@ -211,3 +211,53 @@ section{
     margin-bottom: 20px;
 }
 /*===================  MEET VOLUNTEERS SECTION STYLE END =======================*/
+.homeless-p{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/5.jpg) no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+.homeless-p .aling-text{
+    text-align: center;
+}
+.homeless-p .aling-text h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: auto;
+    color:#fff;
+    width:auto;
+    text-transform: capitalize;
+}
+.homeless-p .aling-text p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin: 30px auto;
+}
+.homeless-p .aling-text .btn-box i{
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.homeless-p .aling-text .btn-box .btn-1{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 20px 25px;
+    background-color: #FF5959;
+    border-radius: 30px;
+    display: inline-block;
+}
+.mrgn{
+    margin-right: 15px;
+}
+/*===================  HOMELESS SECTION STYLE END =======================*/
