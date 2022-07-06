@@ -179,3 +179,35 @@ section{
     margin: 25px 0 45px;
 }
 /*===================  DONATE PLANS SECTION STYLE END =======================*/
+.meet-volunt .volunteer-box-wrap{
+    margin: 70px 0;
+}
+.meet-volunt .volunteer-box-wrap .volunteer-box{
+    width: 22%;
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 10px 10px 40px #ddd;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.meet-volunt .volunteer-box-wrap .volunteer-box:hover{
+    transform: translateY(-20px);
+}
+.meet-volunt .volunteer-box-wrap .volunteer-box h3{
+    color: #121212;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin:25px 0 8px 0;
+}
+.meet-volunt .volunteer-box-wrap .volunteer-box h5{
+    color: #FF5959;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+/*===================  MEET VOLUNTEERS SECTION STYLE END =======================*/
