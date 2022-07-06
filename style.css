@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    list-style: 150%;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+}
+section{
+    position: relative;
+}
+.fix{
+    overflow: hidden;
+}
+.paddings{
+    padding: 60px 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.flexible{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.donate-btn{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    left: 43%;
+    line-height: auto;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 16px 22px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    display: inline-block;
+}
+.btn{
+    left: -2%;
+    margin-top: 25px;
+}
+.head-title{
+    text-align: center;
+}
+.head-title h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: auto;
+    color:#121212;
+    width:auto;
+    text-transform: capitalize;
+}
+.head-title p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color:#707070;
+    width: 59%;
+    margin: 40px auto 0 auto;
+}
+/*===================  GLOBAL CSS  =======================*/
+.top-banner{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/donation1.jpg) no-repeat;
+    height: 110vh;
+    background-size: cover;
+}
+.top-banner .hero-text{
+    position: absolute;
+    top: 25%;
+}
+.top-banner .hero-text h1{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    color:#fff
+}
+.top-banner .hero-text p{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 57%;
+    margin: 30px auto 50px auto;
+}
+/*===================  TOP SECTION STYLE END =======================*/
