@@ -97,3 +97,47 @@ section{
     margin: 30px auto 50px auto;
 }
 /*===================  TOP SECTION STYLE END =======================*/
+.donate{
+    padding-top: 120px;
+}
+.donate .donate-box-wrap{
+    margin-top: 50px;
+}
+.donate .donate-box-wrap .donate-box{
+    background-color: #fafafa;
+    border: 2px solid #fafafa;
+    padding: 50px;
+    border-radius: 5px;
+    transition: all  .5s ;
+}
+.donate .donate-box-wrap .donate-box:hover{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    box-shadow: 10px 10px 40px #ddd;
+}
+.donate .donate-box-wrap .donate-box:nth-child(2){
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.donate .donate-box-wrap .donate-box:nth-child(2) h3{
+    color: #FF5959;
+}
+.donate .donate-box-wrap .donate-box h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color:#707070;
+}
+.donate .amount-box{
+    text-align: center;
+}
+.donate .amount-box #amount{
+    color: #b3b3b3;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border: 0;
+    margin: 40px 0 30px 0;
+}
+/*===================  DONATE SECTION STYLE END =======================*/
